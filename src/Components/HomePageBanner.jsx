@@ -74,7 +74,7 @@ const HomePageBanner = () => {
           },
         }}
       />
-      <div className="absolute flex flex-col items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
+      <div className="absolute flex flex-col items-center justify-center    left-0 top-0 w-full h-full pt-[7rem]">
         <h1 className="sm:text-5xl text-lg font-bold text-center text-white mb-6">
           {displayHeading}
           {cursorPosition === "heading" && (
