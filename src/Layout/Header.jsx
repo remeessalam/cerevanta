@@ -16,6 +16,7 @@ const Header = () => {
 
   const navigate = useNavigate();
   const navigateTo = () => {
+    toggleMenu();
     navigate("/contact-us");
   };
 
