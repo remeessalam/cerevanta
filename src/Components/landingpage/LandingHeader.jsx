@@ -77,23 +77,23 @@ const LandingHeader = () => {
             >
               Contact Us
             </Scrolllink>
-            <button
+            {/* <button
               onClick={toggleTheme}
               className={`p-2 rounded-full bg-gray-100 dark:bg-gray-800 dark:text-yellow-300 text-gray-600  `}
               aria-label="Toggle dark mode"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            </button> */}
           </div>
 
           <div className="md:hidden flex items-center space-x-4">
-            <button
+            {/* <button
               onClick={toggleTheme}
               className={`p-2 rounded-full bg-gray-100 dark:bg-gray-800 dark:text-yellow-300 text-gray-600`}
               aria-label="Toggle dark mode"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            </button> */}
             <button
               onClick={toggleMenu}
               className="text-gray-900 dark:text-white"
