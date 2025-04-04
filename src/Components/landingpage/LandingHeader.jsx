@@ -2,13 +2,13 @@ import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import logo from "../../assets/images/headerlogo.png";
 import { Link } from "react-router-dom";
-import { useTheme } from "../../Context/ThemeContext";
+// import { useTheme } from "../../Context/ThemeContext";
 import { Link as Scrolllink } from "react-scroll";
 
 const LandingHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
-  const isDarkMode = theme === "dark";
+  // const { theme, toggleTheme } = useTheme();
+  // const isDarkMode = theme === "dark";
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
