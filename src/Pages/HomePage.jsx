@@ -25,15 +25,16 @@ const HomePage = () => {
               Welcome to Cerevanta AI
             </h1>
             <p className="desc mt-4" data-aos="fade-left">
-              In a reality where technology evolves at light speed, Cerevanta AI
-              stands at the intersection of cosmic insight and cutting-edge
-              innovation. By merging quantum-level thinking with AI-driven
-              solutions, we transform visionary ideas into immersive digital
-              experiences that transcend borders, dimensions, and industries.
-              Whether you need a next-generation mobile app, an interstellar
-              AR/VR environment, or an AI calling system that revolutionizes
-              global communication, Cerevanta AI is here to guide you on this
-              journey across galaxies.
+              In a world driven by rapid technological transformation, Cerevanta
+              AI leads with precision, innovation, and purpose. We specialize in
+              crafting intelligent solutions—ranging from mobile and web
+              applications to AI-powered calling systems and blockchain-secured
+              platforms. By integrating AI, NLP, data analytics, and robotic
+              process automation, we help businesses streamline operations,
+              enhance security, and unlock data-driven growth. Whether you're
+              building scalable custom software, securing digital assets, or
+              automating workflows, Cerevanta AI is your trusted partner in
+              next-gen digital evolution.
             </p>
           </div>
         </div>

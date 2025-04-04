@@ -10,15 +10,16 @@ const UnlockEfficiency = () => {
   return (
     <section>
       <div className="wrapper w-full flex flex-col gap-10 items-center paddingtop paddingbottom">
-        <RoundedHeader title="Unlock Efficiency" />
+        <RoundedHeader title="Unlock Potential" />
         <h1 className="main-title w-fit">
-          Drive Innovation with Our AI Services
+          Build Smarter Solutions with Cerevanta AI
         </h1>
         <p className="desc text-center">
-          Drive innovation with our AI-powered solutions, transforming business
-          operations through automation, data intelligence, and machine
-          learning. Enhance efficiency, streamline workflows, and deliver
-          smarter customer experiences with next-gen AI technology.
+          Empower your business with intelligent solutions across mobile app
+          development, web platforms, RPA, AI calling, and more. Our tailored
+          services streamline operations, strengthen digital presence, and drive
+          measurable impact through automation, security, and advanced
+          analytics.
         </p>
         <button
           onClick={() => navigateTo("/contact-us")}

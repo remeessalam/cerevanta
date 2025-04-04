@@ -8,22 +8,23 @@ const OurStory = () => {
             data-aos="fade-right"
             className="text-[32px] text-primary font-bold"
           >
-            Step into the Godverse
+            Empowering the Future with Technology
           </h3>
           <p className="desc mt-4" data-aos="fade-right">
-            At Cerevanta AI, we aren’t just another tech firm—we are architects
-            of the future, cosmic visionaries, and AI strategists committed to
-            expanding human potential across all frontiers. Join us to discover
-            how leading-edge technology—powered by quantum insights—can
-            transform your business, your world, and the universe itself.
+            At Cerevanta AI, we don’t just build software—we build intelligent
+            ecosystems that drive growth, automation, and innovation. We are a
+            team of forward-thinkers, developers, and strategists dedicated to
+            helping businesses harness the true power of technology.
             <br />
             <br />
-            Experience cosmic innovation with Cerevanta AI. From AI-powered
-            solutions to AR/VR, mobile apps, and quantum-level data analytics,
-            we help businesses worldwide transcend boundaries. Join us to expand
-            your vision across all continents—and beyond.
+            From AI-driven calling systems and intelligent automation to custom
+            software, mobile apps, and blockchain development—we deliver
+            scalable solutions that solve real-world problems. Join us and
+            explore how our expertise in data analytics, RPA, and cybersecurity
+            can take your business to the next level.
           </p>
         </div>
+
         <img data-aos="fade-left" src={visionmissionimg} alt="" />
       </div>
     </section>

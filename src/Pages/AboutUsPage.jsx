@@ -37,13 +37,14 @@ const AboutUsPage = () => {
                   About Us
                 </h1>
                 <p data-aos="fade-right" className="desc mt-10">
-                  Welcome to Cerevanta AI, where cosmic innovation converges
-                  with quantum-level intelligence. In a reality where technology
-                  evolves at light speed, we stand at the intersection of cosmic
-                  insight and cutting-edge innovation. By merging quantum-level
-                  thinking with AI-driven solutions, we transform visionary
-                  ideas into immersive digital experiences that transcend
-                  borders, dimensions, and industries.
+                  Welcome to Cerevanta AI, where innovation meets intelligence.
+                  In a world where technology evolves at an unprecedented pace,
+                  we deliver future-ready solutions built on the foundation of
+                  AI, data science, cybersecurity, and advanced software
+                  development. From mobile and web applications to AI-powered
+                  calling systems, automation, and blockchain platforms—our
+                  mission is to turn bold ideas into powerful digital realities
+                  that drive business transformation across industries.
                 </p>
               </div>
               <img data-aos="fade-left" src={aboutusimg} alt="aboutus-img" />
