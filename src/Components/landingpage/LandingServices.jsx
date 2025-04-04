@@ -44,8 +44,8 @@ const LandingServices = ({ page }) => {
                 <div className="rounded-lg bg-white dark:bg-white/20 hover:bg-custom-gradient p-5 flex flex-col justify-between items-start text-start h-full gap-4">
                   <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
-                        {<item.img />}
+                      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-black group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        {<item.img className="w-8 h-8" />}
                       </div>
                     </div>
                     <h5 className="font-semibold text-2xl font-raleway transition-colors duration-300 text-primary">
