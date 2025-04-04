@@ -70,7 +70,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
   name: "Cerevanta AI",
-  email: "aicompany@gmail.com",
+  email: "aicompany@example.com",
   phone: "+91-9911690596",
   address:
     "Daftar Cowork 1.0 - HQ. Building No.2, State Bank Colony. Main Road - GT Karnal Rd. Delhi- 110009",
