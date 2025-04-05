@@ -80,8 +80,8 @@ import BlockchainImg1 from "../assets/images/services/BlockchainImg1.jpg";
 
 export const companyDetails = {
   name: "Cerevanta AI",
-  // email: "aicompany@example.com",
-  email: "remeesreme4u@gmail.com",
+  email: "support@cerevantaai.com",
+  // email: "remeesreme4u@gmail.com",
   phone: "+91-9911690596",
   address:
     "Daftar Cowork 1.0 - HQ. Building No.2, State Bank Colony. Main Road - GT Karnal Rd. Delhi- 110009",

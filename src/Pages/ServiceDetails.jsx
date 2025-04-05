@@ -96,7 +96,7 @@ const ServiceDetails = () => {
               </p>
               <div className="flex justify-center my-6">
                 <Link to={"/contact-us"} className="primary-btn w-fit">
-                  Join Us Today
+                  Let's Discuss
                 </Link>
               </div>
             </section>
@@ -120,7 +120,7 @@ const ServiceDetails = () => {
                     </p>
                   </div>
                   <Link to={"/contact-us"} className="primary-btn w-fit mt-3">
-                    Join Us Today
+                    Let's Discuss
                   </Link>
                 </div>
               </div>
