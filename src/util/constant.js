@@ -67,10 +67,21 @@ import { IoLogoAndroid } from "react-icons/io";
 import { SiFlutter } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
+import MobileAppImg1 from "../assets/images/services/MobileAppImg1.jpg";
+import WebDevImg1 from "../assets/images/services/WebDevImg1.jpg";
+import CustomSoftImg1 from "../assets/images/services/CustomSoftImg1.jpg";
+import AICallingImg1 from "../assets/images/services/AICallingImg1.jpg";
+import AIDevImg1 from "../assets/images/services/AIDevImg1.jpg";
+import CyberSecurityImg1 from "../assets/images/services/CyberSecurityImg1.jpg";
+import DataAnalyticsImg1 from "../assets/images/services/DataAnalyticsImg1.jpg";
+import NLPImg1 from "../assets/images/services/NLPImg1.jpg";
+import RPAImg1 from "../assets/images/services/RPAImg1.jpg";
+import BlockchainImg1 from "../assets/images/services/BlockchainImg1.jpg";
 
 export const companyDetails = {
   name: "Cerevanta AI",
-  email: "aicompany@example.com",
+  // email: "aicompany@example.com",
+  email: "remeesreme4u@gmail.com",
   phone: "+91-9911690596",
   address:
     "Daftar Cowork 1.0 - HQ. Building No.2, State Bank Colony. Main Road - GT Karnal Rd. Delhi- 110009",
@@ -96,6 +107,7 @@ export const services = [
   {
     title: "Mobile App Development",
     link: "mobile-app-development",
+    image: MobileAppImg1,
     description:
       "We build secure, high-performance iOS and Android apps with modern UI/UX.",
     icon: Smartphone,
@@ -104,6 +116,7 @@ export const services = [
   {
     title: "Web Development",
     link: "web-development",
+    image: WebDevImg1,
     description:
       "Design and develop responsive, scalable, and robust web applications.",
     icon: Globe,
@@ -112,6 +125,7 @@ export const services = [
   {
     title: "Custom Software Development",
     link: "custom-software-development",
+    image: CustomSoftImg1,
     description:
       "Tailored software solutions built to meet unique business needs and goals.",
     icon: Cog,
@@ -120,6 +134,7 @@ export const services = [
   {
     title: "AI Calling",
     link: "ai-calling",
+    image: AICallingImg1,
     description:
       "Automate conversations using AI voice agents for smarter customer support.",
     icon: PhoneCall,
@@ -128,6 +143,7 @@ export const services = [
   {
     title: "Artificial Intelligence Development",
     link: "artificial-intelligence-development",
+    image: AIDevImg1,
     description:
       "Create AI-powered solutions to automate workflows and improve decision-making.",
     icon: Brain,
@@ -136,6 +152,7 @@ export const services = [
   {
     title: "Cybersecurity",
     link: "cybersecurity",
+    image: CyberSecurityImg1,
     description:
       "Secure your digital infrastructure with advanced cybersecurity solutions.",
     icon: Shield,
@@ -144,6 +161,7 @@ export const services = [
   {
     title: "Data Analytics and Business Intelligence",
     link: "data-analytics-business-intelligence",
+    image: DataAnalyticsImg1,
     description:
       "Unlock insights and drive strategy with data analytics and BI tools.",
     icon: BarChart2,
@@ -152,6 +170,7 @@ export const services = [
   {
     title: "Natural Language Processing (NLP)",
     link: "natural-language-processing",
+    image: NLPImg1,
     description:
       "Build NLP solutions for text analysis, chatbots, sentiment analysis, and more.",
     icon: MessageSquare,
@@ -160,6 +179,7 @@ export const services = [
   {
     title: "Robotic Process Automation (RPA)",
     link: "robotic-process-automation",
+    image: RPAImg1,
     description:
       "Streamline business operations by automating repetitive and manual tasks.",
     icon: Repeat,
@@ -168,6 +188,7 @@ export const services = [
   {
     title: "Blockchain Development",
     link: "blockchain-development",
+    image: BlockchainImg1,
     description:
       "Build decentralized apps and smart contracts for secure, trustless systems.",
     icon: Link2,

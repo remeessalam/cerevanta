@@ -12,6 +12,9 @@ import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
 import LeadForm from "../Components/landingpage/LeadForm";
 import Portfolio from "../Components/Portfolio";
+import NewContactForm from "../Components/NewContactForm";
+import RoundedHeader from "../Components/RoundedHeader";
+import { Link } from "react-router-dom";
 
 const LandingPage = ({ page }) => {
   const { theme } = useTheme();
@@ -23,23 +26,30 @@ const LandingPage = ({ page }) => {
         <HomePageBanner />
         <section id="about-us">
           <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
-            <img src={homeaboutimg} alt="homeaboutimg" />
-            <div>
-              <h1 className="main-title leading-tight">
+            <div className="flex flex-col items-center text-center gap-3">
+              <RoundedHeader title="About us" />
+              <h1 className="main-title leading-tight" data-aos="fade-left">
                 Welcome to Cerevanta AI
               </h1>
-              <p className="desc mt-4">
-                In a reality where technology evolves at light speed, Cerevanta
-                AI stands at the intersection of cosmic insight and cutting-edge
-                innovation. By merging quantum-level thinking with AI-driven
-                solutions, we transform visionary ideas into immersive digital
-                experiences that transcend borders, dimensions, and industries.
-                Whether you need a next-generation mobile app, an interstellar
-                AR/VR environment, or an AI calling system that revolutionizes
-                global communication, Cerevanta AI is here to guide you on this
-                journey across galaxies.
+              <p className="desc mt-4" data-aos="fade-left">
+                In a world driven by rapid technological transformation,
+                Cerevanta AI leads with precision, innovation, and purpose. We
+                specialize in crafting intelligent solutions—ranging from mobile
+                and web applications to AI-powered calling systems and
+                blockchain-secured platforms. <br />
+                <br />
+                By integrating AI, NLP, data analytics, and robotic process
+                automation, we help businesses streamline operations, enhance
+                security, and unlock data-driven growth. Whether you're building
+                scalable custom software, securing digital assets, or automating
+                workflows, Cerevanta AI is your trusted partner in next-gen
+                digital evolution.
               </p>
+              <Link to="/contact-us" className="primary-btn">
+                Work With Us
+              </Link>
             </div>
+            <img src={homeaboutimg} alt="homeaboutimg" className="rounded-xl" />
           </div>
         </section>
         <LandingServices page={page} />
@@ -56,7 +66,7 @@ const LandingPage = ({ page }) => {
             <OurStory />
             <UnlockEfficiency />
             <Faq />
-            <LeadForm />
+            <NewContactForm />
           </section>
         </div>
       </div>

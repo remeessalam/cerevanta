@@ -11,6 +11,8 @@ import { useTheme } from "../Context/ThemeContext";
 import Industries from "../Components/Industries";
 import Ourvalues from "../Components/Ourvalues";
 import Portfolio from "../Components/Portfolio";
+import { Link } from "react-router-dom";
+import NewContactForm from "../Components/NewContactForm";
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -19,8 +21,8 @@ const HomePage = () => {
       <HomePageBanner />
       <section>
         <div className="wrapper grid md:grid-cols-2 gap-10 sm:pt-[4rem] pt-[2rem] paddingbottom">
-          <img data-aos="fade-right" src={homeaboutimg} alt="homeaboutimg" />
-          <div>
+          <div className="flex flex-col items-center text-center gap-3">
+            <RoundedHeader title="About us" />
             <h1 className="main-title leading-tight" data-aos="fade-left">
               Welcome to Cerevanta AI
             </h1>
@@ -29,14 +31,25 @@ const HomePage = () => {
               AI leads with precision, innovation, and purpose. We specialize in
               crafting intelligent solutions—ranging from mobile and web
               applications to AI-powered calling systems and blockchain-secured
-              platforms. By integrating AI, NLP, data analytics, and robotic
-              process automation, we help businesses streamline operations,
-              enhance security, and unlock data-driven growth. Whether you're
-              building scalable custom software, securing digital assets, or
-              automating workflows, Cerevanta AI is your trusted partner in
-              next-gen digital evolution.
+              platforms. <br />
+              <br />
+              By integrating AI, NLP, data analytics, and robotic process
+              automation, we help businesses streamline operations, enhance
+              security, and unlock data-driven growth. Whether you're building
+              scalable custom software, securing digital assets, or automating
+              workflows, Cerevanta AI is your trusted partner in next-gen
+              digital evolution.
             </p>
+            <Link to="/contact-us" className="primary-btn">
+              Work With Us
+            </Link>
           </div>
+          <img
+            data-aos="fade-right"
+            src={homeaboutimg}
+            alt="homeaboutimg"
+            className="rounded-xl"
+          />
         </div>
       </section>
       <WhyChooseUs />
@@ -68,6 +81,7 @@ const HomePage = () => {
           <Testimonials />
           <Highlights />
           <Faq />
+          <NewContactForm />
         </div>
       </div>
     </div>

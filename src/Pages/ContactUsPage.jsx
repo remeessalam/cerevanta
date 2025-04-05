@@ -4,6 +4,7 @@ import { useState } from "react";
 import { companyDetails } from "../util/constant";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import NewContactForm from "../Components/NewContactForm";
 
 const ContactUsPage = () => {
   const [spinner, setSpinner] = useState(false);
@@ -76,7 +77,7 @@ const ContactUsPage = () => {
           <MapComponent />
         </div>
 
-        <div className="w-full max-w-2xl mx-auto paddingbottom">
+        {/* <div className="w-full max-w-2xl mx-auto paddingbottom">
           <h2 className="main-title mb-8 text-center" data-aos="fade-up">
             Schedule a Consultation
           </h2>
@@ -162,7 +163,8 @@ const ContactUsPage = () => {
               {spinner ? "Sending..." : "Send Message"}
             </button>
           </form>
-        </div>
+        </div> */}
+        <NewContactForm />
       </div>
     </div>
   );
