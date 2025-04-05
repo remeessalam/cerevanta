@@ -34,10 +34,10 @@ function BlogView() {
         <ViewBlogHeader
           image={blog.imageUrl}
           title={blog.title}
-          readTime={blog.readTime}
-          date={blog.date}
+          // readTime={blog.readTime}
+          // date={blog.date}
         />
-        <ViewBlogContent />
+        <ViewBlogContent blogdetails={blog} />
       </div>
       <div className="wrapper paddingtop">
         <div className="flex justify-center items-center flex-col">

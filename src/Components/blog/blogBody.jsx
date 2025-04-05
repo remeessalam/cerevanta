@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
+function BlogBody({ imageUrl, title, summary, id }) {
   console.log(imageUrl, "imageUrl");
 
   const navigate = useNavigate();
@@ -12,9 +12,7 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
     <>
       <article
         data-aos="fade-up"
-        className={`dark:border dark:border-gray-700 rounded-xl overflow-hidden dark:shadow-md dark:bg-darkblack flex  items-center flex-col ${
-          passkey ? "" : "w-full"
-        }`}
+        className={`dark:border dark:border-gray-700 rounded-xl overflow-hidden dark:shadow-md dark:bg-darkblack flex  items-center flex-col `}
         onClick={() =>
           blogPageChange({
             id,
@@ -30,11 +28,13 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
           />
         </div>
         <div className="p-4">
-          <p className="text-sm text-gray-500 dark:text-white">{readTime}</p>
+          {/* <p className="text-sm text-gray-500 dark:text-white">{readTime}</p> */}
           <h2 className="text-xl font-semibold mb-2 dark:text-white">
             {title}
           </h2>
-          <p className="text-gray-700 mb-3 dark:text-white">{subdescription}</p>
+          <p className="text-gray-700 mb-3 dark:text-white line-clamp-5">
+            {summary}
+          </p>
         </div>
       </article>
     </>
@@ -42,3 +42,7 @@ function BlogBody({ imageUrl, title, subdescription, readTime, id, passkey }) {
 }
 
 export default BlogBody;
+
+// ${
+//   passkey ? "" : "w-full"
+// }

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ViewBlogContent() {
+function ViewBlogContent({ blogdetails }) {
   return (
     <div className="">
       <section className="mb-8">
@@ -10,11 +10,8 @@ function ViewBlogContent() {
         >
           Overview
         </h2>
-        <p className="text-black dark:text-gray-400 " data-aos="fade-up">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          placerat, magna at sollicitudin varius, eros augue faucibus mauris, ut
-          malesuada nisl libero sit amet justo. Etiam nec libero vel velit
-          efficitur fermentum a in lorem.
+        <p className="text-black dark:text-gray-400" data-aos="fade-up">
+          {blogdetails.summary}
         </p>
       </section>
 
@@ -29,41 +26,23 @@ function ViewBlogContent() {
           data-aos="fade-up"
           className="list-disc list-inside text-black dark:text-gray-400"
         >
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            fringilla ligula vel lorem fermentum feugiat.
-          </li>
-          <li>
-            Pellentesque habitant morbi tristique senectus et netus et malesuada
-            fames ac turpis egestas.
-          </li>
-          <li>
-            Integer sit amet ipsum eu purus dapibus pretium. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices.
-          </li>
-          <li>
-            Donec posuere neque ac ex varius, nec viverra magna tincidunt.
-            Vestibulum rhoncus felis vel facilisis egestas.
-          </li>
-          <li>
-            Curabitur at libero nec nunc ullamcorper accumsan non non justo.
-            Nullam tincidunt velit id convallis congue.
-          </li>
+          {blogdetails.content.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
         </ul>
       </section>
 
-      <section className="mb-8">
+      {/* <section className="mb-8">
         <blockquote
           data-aos="fade-up"
           className="pl-4 italic text-black dark:text-gray-400"
         >
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            volutpat, lacus in pretium elementum, sem purus sagittis nisl, ut
-            vehicula magna justo id purus."
+            "The blend of blockchain's trust layer with AI's intelligence layer
+            is powering the next phase of digital transformation."
           </p>
           <cite className="mt-2 text-black dark:text-gray-400">
-            - Lorem Ipsum, Industry Expert
+            - {blogdetails.title.split(":")[0]}, Industry Expert
           </cite>
         </blockquote>
       </section>
@@ -76,11 +55,12 @@ function ViewBlogContent() {
           Why Read This?
         </h2>
         <p data-aos="fade-up" className="text-black dark:text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-          perspiciatis unde omnis iste natus error sit voluptatem accusantium
-          doloremque laudantium.
+          This article provides a comprehensive overview of how{" "}
+          {blogdetails.title} is transforming the technological landscape in
+          2025. Understanding these innovations is crucial for anyone interested
+          in the future of decentralized systems and artificial intelligence.
         </p>
-      </section>
+      </section> */}
     </div>
   );
 }

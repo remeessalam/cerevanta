@@ -87,7 +87,7 @@ export const companyDetails = {
     "Daftar Cowork 1.0 - HQ. Building No.2, State Bank Colony. Main Road - GT Karnal Rd. Delhi- 110009",
   socialLinks: [
     {
-      href: "",
+      href: "https://www.linkedin.com/company/cerevanta/",
       icon: FaLinkedin,
     },
     // {
