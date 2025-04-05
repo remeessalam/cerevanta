@@ -90,17 +90,18 @@ export const companyDetails = {
       href: "",
       icon: FaLinkedin,
     },
-    {
-      href: "",
-      icon: FaInstagram,
-    },
-    { href: "", icon: FaXTwitter },
-    {
-      href: "",
-      icon: FaYoutube,
-    },
+    // {
+    //   href: "",
+    //   icon: FaInstagram,
+    // },
+    // { href: "", icon: FaXTwitter },
+    // {
+    //   href: "",
+    //   icon: FaYoutube,
+    // },
   ],
-  whatsapp: "",
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=919911690596&text&type=phone_number&app_absent=0",
 };
 
 export const services = [

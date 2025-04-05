@@ -81,7 +81,7 @@ const LandingFooter = () => {
                     duration={1000}
                     className="text-white hover:text-gray-300 text-sm"
                   >
-                    Contact US
+                    Contact Us
                   </Scrolllink>
                 </li>
               </ul>

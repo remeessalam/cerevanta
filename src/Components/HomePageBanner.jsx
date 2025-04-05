@@ -1,13 +1,13 @@
 // import React, { useEffect, useState } from "react";
 import bannervideo from "../assets/video/bannervideo.mp4";
 import ReactPlayer from "react-player";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import RoundedHeader from "./RoundedHeader";
 const HomePageBanner = () => {
-  const navigate = useNavigate();
-  const navigateTo = (link) => {
-    navigate(link);
-  };
+  // const navigate = useNavigate();
+  // const navigateTo = (link) => {
+  //   navigate(link);
+  // };
   // const headingText = "Vision Beyond Reality";
   const paragraphText =
     "We exist at the intersection where cosmic innovation meets quantum-level intelligence — a space where visionary ideas and advanced technologies converge to redefine the boundaries of what's possible. Our mission is to harness this synergy to create transformative solutions that shape the future of technology and human experience.";
@@ -105,7 +105,7 @@ const HomePageBanner = () => {
               </span>
             )} */}
           </p>
-          <div className="flex justify-center gap-5">
+          {/* <div className="flex justify-center gap-5">
             <button
               data-aos="fade-right"
               onClick={() => navigateTo("/about-us")}
@@ -120,7 +120,7 @@ const HomePageBanner = () => {
             >
               Contact Us{" "}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

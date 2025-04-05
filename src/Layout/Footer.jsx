@@ -64,7 +64,7 @@ const Footer = () => {
                     to="/contact-us"
                     className="text-white hover:text-gray-300 text-sm"
                   >
-                    Contact US
+                    Contact Us
                   </Link>
                 </li>
               </ul>
