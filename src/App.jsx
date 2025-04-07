@@ -17,7 +17,7 @@ const Thankyou = lazy(() => import("./Pages/Thankyou"));
 const Portfolio = lazy(() => import("./Pages/Portfolio"));
 
 import { LoadingSpinner } from "./Components/Loader";
-import TermsAndConditions from "./Pages/TermsandConditions";
+import TermsAndConditions from "./Pages/TermsAndConditions";
 import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage";
 
 const AppRouter = createBrowserRouter([
