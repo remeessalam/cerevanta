@@ -134,7 +134,7 @@ export const services = [
   },
   {
     title: "AI Calling",
-    link: "ai-calling",
+    link: "ai-calling-solutions",
     image: AICallingImg1,
     description:
       "Automate conversations using AI voice agents for smarter customer support.",
