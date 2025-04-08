@@ -19,9 +19,9 @@ const LandingFooter = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start md:justify-items-center">
             <div className="col-span-1">
-              <div className="flex items-center gap-2 mb-4">
+              <Link to={"/"} className="flex items-center gap-2 mb-4">
                 <img src={logo} alt="logo" className="w-[6.4rem]" />
-              </div>
+              </Link>
               <p className="text-white text-sm max-w-xs">
                 Unleash the Next Wave of Business Evolution with Cerevanta AI
               </p>
