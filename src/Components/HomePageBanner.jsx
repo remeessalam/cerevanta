@@ -76,7 +76,10 @@ const HomePageBanner = () => {
       />
       <div className="absolute flex flex-col items-center justify-center    left-0 top-0 w-full h-full pt-[7rem]">
         <RoundedHeader title="Welcome To Cerevanta AI" />
-        <h1 className="sm:text-6xl text-5xl font-bold text-center text-white my-6">
+        <h1
+          data-aos="fade-up"
+          className="sm:text-6xl text-5xl font-bold text-center text-white my-6"
+        >
           <span className="text-primary">Vision </span>
           Beyond Reality
           {/* {displayHeading}
@@ -92,7 +95,10 @@ const HomePageBanner = () => {
         </h1>
 
         <div className="flex flex-col gap-8 pb-5">
-          <p className="desc max-w-[39rem] text-center   text-white ">
+          <p
+            data-aos="fade-up"
+            className="desc max-w-[39rem] text-center   text-white "
+          >
             {paragraphText}
             {/* {displayParagraph}
             {cursorPosition === "paragraph" && (

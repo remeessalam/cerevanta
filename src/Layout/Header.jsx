@@ -27,9 +27,9 @@ const Header = () => {
       <div className="wrapper">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
-            <div className=" w-auto text-white">
+            <Link to={"/"} className=" w-auto text-white">
               <img src={logo} alt="logo" className="w-[6rem]" />
-            </div>
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
