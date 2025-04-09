@@ -81,7 +81,7 @@ const HomePageBanner = () => {
           className="sm:text-6xl text-5xl font-bold text-center text-white my-6"
         >
           Deep
-          <span className="text-primary">Brain-Inspired </span>
+          <span className="text-primary"> Brain-Inspired </span>
           Innovations
           {/* {displayHeading}
           {cursorPosition === "heading" && (
