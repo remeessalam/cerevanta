@@ -80,8 +80,9 @@ const HomePageBanner = () => {
           data-aos="fade-up"
           className="sm:text-6xl text-5xl font-bold text-center text-white my-6"
         >
-          <span className="text-primary">Vision </span>
-          Beyond Reality
+          Deep
+          <span className="text-primary">Brain-Inspired </span>
+          Innovations
           {/* {displayHeading}
           {cursorPosition === "heading" && (
             <span
