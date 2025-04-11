@@ -9,6 +9,8 @@ import {
   MessageSquare,
   Repeat,
   Link2,
+  Bot,
+  Gamepad2,
 } from "lucide-react";
 import file from "../assets/images/png/file.png";
 import graph from "../assets/images/png/graph.png";
@@ -72,11 +74,11 @@ import WebDevImg1 from "../assets/images/services/WebDevImg1.jpg";
 import CustomSoftImg1 from "../assets/images/services/CustomSoftImg1.jpg";
 import AICallingImg1 from "../assets/images/services/AICallingImg1.jpg";
 import AIDevImg1 from "../assets/images/services/AIDevImg1.jpg";
-import CyberSecurityImg1 from "../assets/images/services/CyberSecurityImg1.jpg";
+import ChatbotImg1 from "../assets/images/services/ChatbotImg1.jpg";
 import DataAnalyticsImg1 from "../assets/images/services/DataAnalyticsImg1.jpg";
 import NLPImg1 from "../assets/images/services/NLPImg1.jpg";
 import RPAImg1 from "../assets/images/services/RPAImg1.jpg";
-import BlockchainImg1 from "../assets/images/services/BlockchainImg1.jpg";
+import GameDevImg1 from "../assets/images/services/GameDevImg1.jpg";
 
 export const companyDetails = {
   name: "Cerevanta AI",
@@ -151,12 +153,12 @@ export const services = [
     bgColor: "bg-gray-900",
   },
   {
-    title: "Cybersecurity",
-    link: "cybersecurity",
-    image: CyberSecurityImg1,
+    title: "Chatbot Development",
+    link: "chatbot-development",
+    image: ChatbotImg1,
     description:
-      "Secure your digital infrastructure with advanced cybersecurity solutions.",
-    icon: Shield,
+      "Create intelligent, multi-channel chatbots with NLP, custom integrations, and analytics built in.",
+    icon: Bot,
     bgColor: "bg-gray-900",
   },
   {
@@ -187,12 +189,12 @@ export const services = [
     bgColor: "bg-gray-900",
   },
   {
-    title: "Blockchain Development",
-    link: "blockchain-development",
-    image: BlockchainImg1,
+    title: "Game Development",
+    link: "game-development",
+    image: GameDevImg1,
     description:
-      "Build decentralized apps and smart contracts for secure, trustless systems.",
-    icon: Link2,
+      "Build immersive 2D, 3D, multiplayer, and cross-platform games with stunning visuals and smooth gameplay.",
+    icon: Gamepad2,
     bgColor: "bg-gray-900",
   },
 ];
