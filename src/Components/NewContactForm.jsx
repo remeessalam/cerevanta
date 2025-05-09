@@ -36,7 +36,6 @@ const NewContactForm = () => {
     let name = values.firstName + " " + values.lastName;
     var emailBody = "Name: " + name + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
-    // emailBody += "Phone: " + values.phoneNumber + "\n\n";
     emailBody += "Subject: " + values.subject + "\n\n";
     emailBody += "Service: " + values.service + "\n\n";
     emailBody += "Project Details:\n" + values.projectDetails;
